@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /blog
+# RewriteRule ^([A-Za-z0-9-]+)/([0-9]+)/?$ index.php?id=$2
+RewriteRule ^([^/]*)/([^/]*)$ index.php?id=$2 [L]
+
+SetEnv mod_rewrite_enabled 1

@@ -1,0 +1,318 @@
+[30-May-2019 17:52:08 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 10
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(): Failed opening 'includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 10
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 16
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 16
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 163
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 163
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(includes/scripts.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 168
+[30-May-2019 17:52:08 UTC] PHP Warning:  include(): Failed opening 'includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 168
+[30-May-2019 17:52:11 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 10
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(): Failed opening 'includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 10
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 16
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 16
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 163
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 163
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(includes/scripts.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/blog/index.php on line 168
+[30-May-2019 17:52:11 UTC] PHP Warning:  include(): Failed opening 'includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/blog/index.php on line 168
+[30-May-2019 17:52:53 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:52:57 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:55:06 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:13 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:13 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:19 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:56:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:57:05 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 17:58:42 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:01:15 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:02:39 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:04:01 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:04:22 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:14:17 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:16:02 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:16:11 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:17:24 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:20:18 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:20:48 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:21:32 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:22:26 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:24:19 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:25:10 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:33:09 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:33:56 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:39:04 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:39:41 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:40:32 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:41:27 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:41:41 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:43:06 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:43:10 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:45:04 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:45:28 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:47:24 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 18:55:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:07:31 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:07:57 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:24:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:24:25 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:34:42 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:37:17 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:38:50 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:41:01 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:42:38 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:42:44 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:42:49 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:43:10 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:44:41 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:44:50 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:46:03 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:46:10 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:48:24 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[30-May-2019 19:55:23 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 176
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  include(/home/cgwebsites/public_html/src/crutchphp/config.php): failed to open stream: Permission denied in /home/cgmedia/public_html/blog/blist.php on line 5
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  include(): Failed opening '/home/cgwebsites/public_html/src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 5
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:17:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/cgmedia/public_html/blog/blist.php on line 24
+[05-Jun-2019 17:17:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/cgmedia/public_html/blog/blist.php:24
+Stack trace:
+#0 /home/cgmedia/public_html/blog/index.php(5): include()
+#1 {main}
+  thrown in /home/cgmedia/public_html/blog/blist.php on line 24
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  include(/home/cgwebsites/public_html/src/crutchphp/config.php): failed to open stream: Permission denied in /home/cgmedia/public_html/blog/blog.php on line 5
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  include(): Failed opening '/home/cgwebsites/public_html/src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 5
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 10
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 10
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 17:19:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/cgmedia/public_html/blog/blog.php on line 28
+[05-Jun-2019 17:19:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/cgmedia/public_html/blog/blog.php:28
+Stack trace:
+#0 /home/cgmedia/public_html/blog/index.php(3): include()
+#1 {main}
+  thrown in /home/cgmedia/public_html/blog/blog.php on line 28
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:45:35 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:08 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:10 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:20 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:46:31 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:48:50 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:49:37 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:50:15 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:50:18 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:50:26 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 10
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(../includes/scripts.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 17:53:29 UTC] PHP Warning:  include(): Failed opening '../includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 316
+[05-Jun-2019 18:03:18 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:03:18 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:03:18 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:03:18 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 18:03:18 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 311
+[05-Jun-2019 18:04:07 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:04:07 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:04:07 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:04:07 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 289
+[05-Jun-2019 18:04:07 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 289
+[05-Jun-2019 18:04:49 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:04:49 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:04:49 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:04:49 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 286
+[05-Jun-2019 18:04:49 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 286
+[05-Jun-2019 18:07:50 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:07:50 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:07:50 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:07:50 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 286
+[05-Jun-2019 18:07:50 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 286
+[05-Jun-2019 18:08:56 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:08:56 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:08:56 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:08:56 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 288
+[05-Jun-2019 18:08:56 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 288
+[05-Jun-2019 18:09:08 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:09:08 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:09:08 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:09:08 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:09:08 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:10:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:10:20 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:10:20 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:10:20 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:10:20 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:10:22 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:10:22 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:10:22 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:10:22 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 232
+[05-Jun-2019 18:10:22 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 232
+[05-Jun-2019 18:11:13 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:11:13 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:11:13 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:11:13 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 81
+[05-Jun-2019 18:11:13 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 81
+[05-Jun-2019 18:11:21 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:11:21 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:11:21 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:11:21 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 81
+[05-Jun-2019 18:11:21 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 81
+[05-Jun-2019 18:11:25 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:11:25 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:11:25 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 16
+[05-Jun-2019 18:11:25 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 81
+[05-Jun-2019 18:11:25 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 81
+[05-Jun-2019 18:11:48 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:11:48 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:11:48 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:11:48 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:11:48 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:29:25 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 18:29:25 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:29:25 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 18:29:25 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 18:29:25 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 20:16:18 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 20:16:18 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 20:16:18 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 20:16:18 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 20:16:18 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 20:41:13 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[05-Jun-2019 20:41:13 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 20:41:13 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[05-Jun-2019 20:41:13 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[05-Jun-2019 20:41:13 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:40:13 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[06-Jun-2019 19:40:13 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:40:13 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:40:13 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:40:13 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:40:17 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[06-Jun-2019 19:40:17 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:40:17 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:40:17 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:40:17 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:06 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[06-Jun-2019 19:44:06 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:44:06 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:44:06 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:06 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:12 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[06-Jun-2019 19:44:12 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:44:12 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:44:12 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:12 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:13 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[06-Jun-2019 19:44:13 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:44:13 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 16
+[06-Jun-2019 19:44:13 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:13 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blist.php on line 291
+[06-Jun-2019 19:44:15 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgmedia/public_html/src/crutchphp/config.php on line 187
+[06-Jun-2019 19:44:15 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 16
+[06-Jun-2019 19:44:15 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 16
+[06-Jun-2019 19:44:15 UTC] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home/cgmedia/public_html/blog/blog.php on line 81
+[06-Jun-2019 19:44:15 UTC] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgmedia/public_html/blog/blog.php on line 81

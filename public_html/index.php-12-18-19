@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Latest compiled and minified CSS 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<?php
+include "src/crutchphp/config.php";
+    $link = mysqli_connect($DB_MYSQL["host"], $DB_MYSQL["user"], $DB_MYSQL["pass"], $DB_MYSQL["database"]) or die("Database Error: Invalid Username or Password ".mysqli_error($link));
+
+    mysqli_select_db ( $link , $DB_MYSQL["database"] ) or die("Database Error: Database not found ".mysqli_error($link));
+
+    $tquery = "SELECT * FROM blog_images WHERE  name='logo'";
+
+    $tres = mysqli_query( $link, $tquery);
+
+    $tnr = mysqli_num_rows($tres);
+
+    $row  = mysqli_fetch_array($tres);
+
+    $logo_url = $row['location'];
+
+?>
+
+<style>
+
+:root {
+  --main-bg-color: green;
+  --main-txt-color: #000000; 
+  --main-link-color: #000000; 
+  --main-padding: 15px;
+
+  --color-green: #01e801;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+a:hover, a{
+  color: var(--main-link-color);
+  text-decoration: none;
+}
+.bgimg {
+  /*background-image: url('<?php echo $site_base; ?>/images/forestbridge.jpg');*/
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+.bottomleft {
+  position: absolute;
+  left: 0;
+  right: 16px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+</head>
+<?php include "includes/head.php" ?>
+<body>
+
+<?php include "includes/header.php" ?>
+
+
+
+ <!--* Testimonial*-->
+    <section id="mainwrapper" class="mt_testimonial">
+        <div class="container">
+
+            <div class="slides">
+              
+              <img src="<?php echo $site_base; ?>/images/reillys-slider-1.PNG" class="img-responsive">
+            </div>
+
+             <!-- Main Content Wrapper -->
+   <div class="mainwrapper"><br>
+                              <p>Reilly Insulation is a family business established by Thomas N. Reilly and his partner Jerry Colvin in 1957.  Reilly and Colvin then specialized in insulating new homes.  With the invention of blowing machines we grew into a company, pioneering ways to insulate existing homes as well.  Their business grew and thrived continuing to do so today.  <a href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/insulation-contractors/reilly-insulation-incorporated-in-willow-grove-pa-185839609/">Our &#8220;A+&#8221; reputation</a> speaks for its self. We are passionate about containing energy.</p>
+<p>Jim and Tom Reilly Jr. took over the company in the mid 1990&#8242;s and continued to learn not only about Insulation but about the big picture: Home performance. Making homes Energy efficient makes for a healthier planet and saves our customers money.  Being Green isn&#8217;t a new thing for us, it&#8217;s how we have differentiated our business over the last 50 plus years.</p>
+<p>We&#8217;re <a href="http://www.bpi.org/homeowners_faq.aspx">BPI certified</a> meaning we&#8217;ve spent classroom time and became certified in Home Performance.  Given the opportunity we&#8217;ll evaluate your home and recommend the best solution to make it more comfortable, energy efficient, and healthier.  You&#8217;ll save money and do your part in reducing the carbon footprint.</p>
+<p>&nbsp;</p>
+
+                              
+          <div class="clear"></div>
+           
+          
+        </div>
+        <!-- Main Content Wrapper End -->
+
+
+
+        </div>
+
+
+
+
+                   <div class="clearfix"></div>
+
+    </section>
+    <!--* EndTestimonial*-->
+
+
+
+                    <div id="bottomwrapper"></div>
+
+
+    
+        </div>
+      <div class="clear"></div>
+    </div>
+
+  
+
+
+
+
+
+
+  <div class="clearfix"></div>
+  <?php include "includes/footer.php" ?>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

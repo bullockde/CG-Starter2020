@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Latest compiled and minified CSS 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<?php
+include "src/crutchphp/config.php";
+    $link = mysqli_connect($DB_MYSQL["host"], $DB_MYSQL["user"], $DB_MYSQL["pass"], $DB_MYSQL["database"]) or die("Database Error: Invalid Username or Password ".mysqli_error($link));
+
+    mysqli_select_db ( $link , $DB_MYSQL["database"] ) or die("Database Error: Database not found ".mysqli_error($link));
+
+    $tquery = "SELECT * FROM blog_images WHERE  name='logo'";
+
+    $tres = mysqli_query( $link, $tquery);
+
+    $tnr = mysqli_num_rows($tres);
+
+    $row  = mysqli_fetch_array($tres);
+
+    $logo_url = $row['location'];
+
+?>
+
+<style>
+
+:root {
+  --main-bg-color: green;
+  --main-txt-color: #000000; 
+  --main-link-color: #000000; 
+  --main-padding: 15px;
+
+  --color-green: #01e801;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+a:hover, a{
+  color: var(--main-link-color);
+  text-decoration: none;
+}
+.bgimg {
+  /*background-image: url('<?php echo $site_base; ?>/images/forestbridge.jpg');*/
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    margin-left: 2em;
+}
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+.bottomleft {
+  position: absolute;
+  left: 0;
+  right: 16px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+</head>
+<?php include "includes/head.php" ?>
+<body>
+
+<?php include "includes/header.php" ?>
+
+
+<div class="bgimg">
+
+  <div class="middle">
+    <a href="//geekgroup.com">
+
+      <div class="text-center">
+        <?php 
+
+        if( isset( $logo_url ) ){
+          ?>
+          <img src="<?php echo $site_base . $logo_url; ?>"><br><br>
+          <?php
+        }else{
+          ?>
+          <img src="<?php echo $site_base; ?>images/logo.png"><br><br>
+          <?php
+        }
+        ?>
+          
+      </div>
+      <h1>COMING SOON</h1>
+      <hr>
+      <p>www.Fairmount-Design.com</p>
+    </a>
+  </div>
+ 
+  <div class="bottomright">
+    <p> <a href="<?php echo $admin_base; ?>">Admin Login</a> </p>
+  </div>
+</div>
+
+<?php include "includes/footer.php" ?>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

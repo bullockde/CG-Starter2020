@@ -1,0 +1,26 @@
+@import url("styles/themes/theme-alice.min.css");
+.factory-flag{ visibility: hidden; }
+
+#numbers .month{
+	font-size: .5em;
+}
+@media (max-width: 1835px) {
+  #numbers h2 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1600px) {
+  #numbers h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  #numbers h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 991px) {
+  #numbers h2 {
+    font-size: 65px;
+  }
+}

@@ -1,0 +1,70 @@
+#myVideo {
+   display: none;
+}
+
+#video-loader-wrapper {
+    position: relative;
+    background: white;
+}
+
+
+
+#video-loader {
+        
+        display: block;
+        position: relative;
+    
+        width 100%;
+        height: 100%;
+    
+        margin: 0 auto;
+        top: 100px;
+        
+        text-align: center;
+        
+        z-index: 100;  
+        
+        background-color:rgba(255,0,0,0);
+        color: #2136ad;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+    #video-loader {
+        top: 30px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #video-loader {
+        top: 30px;
+    }
+}
+
+
+
+.blinking {
+    -webkit-animation: blink 2s infinite;
+    -moz-animation: blink 2s infinite;    
+    animation: blink 2s infinite;
+}
+        
+@-webkit-keyframes blink {
+    0%   {opacity: 1.0;}
+    50%  {opacity: 0.2;}
+    100% {opacity: 1.0;}
+}
+
+/* Standard syntax */
+@keyframes blink {
+    0%   {opacity: 1.0;}
+    50%  {opacity: 0.2;}
+    100% {opacity: 1.0;}
+} 
+
+@-moz-keyframes blink {
+    0%   {opacity: 1.0;}
+    50%  {opacity: 0.2;}
+    100% {opacity: 1.0;}
+} 
+
+

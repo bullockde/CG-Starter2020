@@ -1,0 +1,594 @@
+<?php
+
+    include "/home2/evanspe1/public_html/src/crutchphp/config.php";
+
+    //$site_base = "http://www.evanspestmgmt.com/";
+
+?>
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+<?php
+    $link = mysql_connect($DB_MYSQL["host"], $DB_MYSQL["user"], $DB_MYSQL["pass"]) or die("Database Error: Invalid Username or Password ".mysql_error());
+
+
+
+    mysql_select_db($DB_MYSQL["database"]) or die("Database Error: Database not found ".mysql_error());
+
+
+
+    $id = mysql_real_escape_string($_GET["id"]);
+
+
+
+    $query = "SELECT * FROM blogs WHERE id='$id'";
+
+    $result = mysql_query($query);
+
+    $num_rows = mysql_num_rows($result);
+
+
+
+    $img_locs = array();
+
+    //header info
+    $himg_locs = array();
+    $hdescr = "";
+    $htitle = "";
+
+    $query2 = "SELECT * FROM blog_images WHERE blog_id='$id'";
+
+    $result2 = mysql_query($query2);
+
+
+
+    $share_url = urlencode('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+
+
+
+    while($hrow2=mysql_fetch_array($result2)){ $himg_locs[] = $hrow2['location']; }
+
+
+    if($num_rows > 0){
+
+        while($hrow=mysql_fetch_array($result)){
+
+            if(strlen($hrow["content"]) > 140){
+
+              $pos=strpos($hrow["content"], ' ', 140);
+
+              $hdescr = strip_tags(substr($hrow["content"],0,$pos).'...'); 
+
+            }else{
+
+              $hdescr = strip_tags($hrow["content"]);
+
+            }
+
+            $htitle = $hrow["title"];
+        }
+    }
+
+    mysql_close();
+?>
+
+        <title>Evans Pest Control | Philadelphia's Trusted Exterminator | 267-582-2687</title>
+
+        <meta name="description" content="Trusted, Affordable, Family Operated, Licensed, and Insured Exterminators – New Technology Based Solutions - Bed Bugs – Roaches – Rodents And All Pests… Get A Free Quote Today!">
+
+        <meta name="keywords" content="pest control, exterminator, bedbug, bed bug, bed bugs, termites, ants, rats, rodents, roaches, fleas">
+
+        <meta name="robots" content="index, follow">
+
+        <meta charset="utf-8">
+
+        <meta name="author" content="Computer Guy Web Solutions And Scott DeGirolamo">
+
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+         <!-- social meta info -->
+
+        <meta property="og:title" content="<?php echo $htitle; ?>" />
+
+        <meta property="og:description" content="<?php echo $hdescr; ?>" />
+
+
+
+        <?php if(count($himg_locs) > 0) { ?>
+
+          <meta property="og:image" content="<?php echo $site_base.$himg_locs[0]; ?>" />
+
+        <? } ?>
+
+        <!-- end social meta info -->
+
+        
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="images/logo.png">
+<!--        
+
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+
+        
+
+        	<!-- Latest compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	-->
+
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap.offcanvas.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="../../css/hover.min.css">
+	<link rel="stylesheet" href="../../css/core.css">
+
+	<!-- Custom styles for this template -->
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/responsive.css">              
+
+	<script src="../../js/jquery-3.2.0.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/bootstrap-select.min.js"></script>
+		<script src="../../js/bootstrap.offcanvas.min.js"></script>
+		<script src="../../js/main.js"></script>           
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<style>
+a {
+				color: #319ede;
+			}
+</style>
+        
+
+    </head>
+
+    
+
+    <body class="appear-animate landing-page">
+
+        <?php include '../header.php'; ?>
+		
+		<div id="content" class="site-content content-wrapper page-content">
+			<div class="page type-page hentry">
+				<div class="page-content-body">
+				
+<!--					<section class="about-us-hero">
+						<img src="../../images/about-us-2.jpg" alt="image">
+					</section>-->
+
+
+														<?php
+
+										    $link = mysql_connect($DB_MYSQL["host"], $DB_MYSQL["user"], $DB_MYSQL["pass"]) or die("Database Error: Invalid Username or Password ".mysql_error());
+
+
+
+										    mysql_select_db($DB_MYSQL["database"]) or die("Database Error: Database not found ".mysql_error());
+
+
+
+										    $id = mysql_real_escape_string($_GET["id"]);
+
+
+
+										    $query = "SELECT * FROM blogs WHERE id='$id'";
+
+										    $result = mysql_query($query);
+
+										    $num_rows = mysql_num_rows($result);
+
+
+
+										    $img_locs = array();
+
+										    //header info
+										    $himg_locs = array();
+										    $hdescr = "";
+										    $htitle = "";
+
+
+										    ?>
+										    
+
+    <?php
+
+    $query2 = "SELECT * FROM blog_images WHERE blog_id='$id'";
+
+    $result2 = mysql_query($query2);
+
+    while($row2=mysql_fetch_array($result2)){ $img_locs[] = $row2['location']; }
+
+
+    if($num_rows > 0){
+
+        while($row=mysql_fetch_array($result)){
+
+?>
+					
+					<section class="free-consultation">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<h1><?php echo $row["title"]; ?></h1>
+								</div>
+<!--								<div class="col-sm-3">
+									<a href="tel:2675822687" class="cta-link hvr-pulse-grow">Call Now!</a>
+								</div>-->
+							</div>
+						</div>
+					</section>
+										<section class="recent-articles1">
+						<div class="container">
+							<div class="section-header hidden">
+									<h2>The Evans Pest Control Pest Files</h2>
+								<!--<p>Learn more about Evans Pest Control capabilities</p>-->
+								<br /><br>
+								<a href="..">Go Back</a>
+							</div>
+							<div class="section-content">
+								<div class="row">
+									<div class=" ">
+												<div class="section-content">
+									
+	
+          <!-- Section -->
+
+            <section class="page-section landing-page">
+
+            	
+                <div class=" relative ">
+
+                    
+
+                    <div class="row ">
+                    	<div class="clearfix"></div>
+                		<br><br><br>
+                        
+
+                        <!-- Content -->
+
+                        <div class="col-sm-12 ">
+
+                           
+
+                            
+
+                            <!-- Post -->
+
+                            <div class="blog-item mb-80 mb-xs-40 ">
+
+                                
+
+                                <!-- Text -->
+
+                                <div class="blog-item-body ">
+
+                                    
+
+                                    
+
+                                
+
+                                    <!--<div class="lead">
+
+                                        <p>
+
+                                            Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor molestie in nec massa.
+
+                                            Fusce non ante sed lorem rutrum feugiat.
+
+                                        </p>
+
+                                    </div>-->
+
+                                    <!-- End Text -->   
+
+                                    
+
+                                    <!-- Media Gallery -->
+
+                                    <div class="col-md-6">
+
+
+
+                                    	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+										  <!-- Indicators -->
+										  <ol class="carousel-indicators hidden">
+										    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+										    <li data-target="#myCarousel" data-slide-to="1"></li>
+										    <li data-target="#myCarousel" data-slide-to="2"></li>
+										  </ol>
+
+										  <!-- Wrapper for slides -->
+
+										  <div class="carousel-inner">
+
+										  <?php 
+
+								            if(!empty($row["youtube_url"])){
+
+								                //echo "<iframe src=\"https://www.youtube.com/embed/".$row["youtube_url"]."?rel=0&amp;controls=0\" style=\"width: 100%; height: 480px;\" frameborder=\"0\" allowfullscreen></iframe>";
+								                ?>
+								                <div class="videoWrapper">
+								                	<iframe src="https://www.youtube.com/embed/<?php echo $row["youtube_url"]; ?>?rel=0&amp;controls=0" width="560" height="349" frameborder="0" allowfullscreen></iframe>
+								            	</div>
+								                <?php
+
+								            }else if(count($img_locs) > 0){
+
+								                $iml_cnt = count($img_locs);
+
+								                if($iml_cnt == 1){
+
+								                    echo '<img src="'.$site_base.$img_locs[0].'" alt="" />';
+
+								                }else{
+
+
+
+								                    
+
+								                    for($i=0;$i<$iml_cnt;$i++){
+								                    	if( $i === 0 ){
+								                    		echo '<div class="item active">';
+								                    	}else{
+								                    		echo '<div class="item">';
+								                    	}
+
+								                        echo '<img src="'.$site_base.$img_locs[$i].'" alt="" />';
+
+								                        echo '</div>';
+
+								                    }
+
+								                    
+
+								                }
+
+								            }
+
+										?>
+										  
+
+										  </div>
+
+
+
+										 <?php if( $iml_cnt > 1 ){ ?>
+										 	 <!-- Left and right controls -->
+											  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+											    <span class="glyphicon glyphicon-chevron-left"></span>
+											    <span class="sr-only">Previous</span>
+											  </a>
+											  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+											    <span class="glyphicon glyphicon-chevron-right"></span>
+											    <span class="sr-only">Next</span>
+											  </a>
+
+										 <?php } ?>
+										 
+										</div>
+
+
+
+
+
+                                    </div>
+
+                                     <div class="col-md-6">
+
+                                     	<h2><b><?php echo $row["headline"]; ?></b></h2>
+                                     	<p>
+			                           	
+				                           	<!--<p>One of the most costly and biggest threats to your home is from Termites. These tiny pests consume and live in wood — from the sills in your foundation to your roof, the Termite habitat includes all wooden parts of your house. Wood-destroying insects like the Termite can destroy your home. 
+“If you can catch them early, you’re going to save yourself a lot of money and maybe even save your house,” says Charles Evans, President of Evans Pest Control.</p>
+											-->
+
+
+											
+				                           	<?php 
+
+				                           		$content=$row["content"];
+		                                        if (preg_match('/^.{1,425}\b/s', $row["content"], $match))
+		                                        {
+		                                            $content=$match[0];
+		                                        }
+		                                        $content .= '...';
+		                                        echo strip_tags($content);
+
+									           //echo '<br><br>'.$row["content"];
+
+											?>
+										</p>
+											<div class="featured-article-info text-center">
+												<a href="../About-Evans-Pest-Control/index.php" class="hvr-push cta-link hvr-pulse-grow   featured-article">Call Now!</a>
+											</div>
+
+
+				                           </div>
+
+                                    
+
+                                    <!-- content -->
+
+
+
+
+
+
+
+                                    <!-- end content -->
+
+                                    
+
+                                     
+
+
+                                </div>
+
+                                <!-- End Text -->
+
+                               
+                            </div>
+
+                           <!-- End Post -->
+
+
+
+<?php
+
+
+
+        }
+
+    }else{ echo "<h4>No Blog Information Found</h4>"; }
+
+
+
+    mysql_close();
+
+
+
+?>                        
+                        </div>
+
+                        <!-- End Content -->
+
+                        
+
+                    </div>
+
+                    
+
+                </div>
+
+            </section>
+
+            <!-- End Section -->
+									
+									</p>
+							
+								</div>
+									</div>
+									
+												
+									
+									
+								</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="about-us-press">
+						<div class="container">
+							<div class="row">
+		
+							</div>
+						</div>
+					</section>
+					
+					<section class="free-consultation hidden">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-9">
+									<h2>Get a Free Phone Consultation</h2>
+									<p>Having a bug problem? Talk to a professional right now!</p>
+								</div>
+								<div class="col-sm-3">
+									<a href="tel:2675822687" class="cta-link hvr-pulse-grow">Call Now!</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+					<section class="contact-us">
+						<div class="container">
+							<div class="row">
+								<div class="section-content">
+									<h2>How Can We Help?</h2>
+									<p>Drop us an email and we will help you today!</p>
+								<div class="contact-form">
+										<div class="row">
+											<form action="../../contactproc.php" method="post">
+											<div class="col-sm-6">
+												<label>Your Name</label>
+												<input type="text" name="thename" value="">
+											</div>
+											<div class="col-sm-6">
+												<label>Your Email</label>
+												<input type="email" name="themail" value="">
+											</div>
+											<div class="col-sm-6">
+												<label>Phone number</label>
+												<input type="text" name="thephone" value="">
+											</div>
+											<div class="col-sm-6">
+												<label>Street address</label>
+												<input type="text" name="theaddress" value="">
+											</div>
+											<div class="col-sm-6">
+												<label>City</label>
+												<input type="text" name="thecity" value="">
+											</div>
+											<div class="col-sm-3">
+												<label>ST</label>
+												<input type="text" name="thest" value="">
+											</div>
+											<div class="col-sm-3">
+												<label>Zip code</label>
+												<input type="text" name="thezip" value="">
+											</div>
+											<div class="col-sm-12">
+												<label>Message</label>
+												<textarea name="themessage"></textarea>
+											</div>
+											<div class="col-sm-12">
+												<center><div class="g-recaptcha" data-sitekey="6Lfa9HAUAAAAAFBhNzSkARwoOCxyRTBKAhDqXg33"></div></center>
+												<input class="hvr-push" type="submit" value="Send">
+											</div>
+											
+											</form>
+									   </div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</section>
+										
+				</div>
+			</div>
+		</div>
+
+        <?php include '../footer.php'; ?>
+		
+		
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/bootstrap-select.min.js"></script>
+		<script src="../js/bootstrap.offcanvas.min.js"></script>
+		<script src="../js/main.js"></script>
+
+    </body>
+
+</html>
+

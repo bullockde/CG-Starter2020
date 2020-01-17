@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html class="background-100-e">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>The Historical Society Of Tacony Website Proposal</title>
+		<meta name="description" content="The Historical Society Of Tacony" />
+		<meta name="keywords" content="onepage, parallax" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+		<link rel="stylesheet" href="bower_components/minicolors/jquery.minicolors.css" />
+		<link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
+		<link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
+		<link rel="stylesheet" href="lib/linecons/style.css" />
+		<link rel="stylesheet" href="styles/style.min.css" />
+		<link rel="stylesheet" href="theme-custom.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+	</head>
+	<body class="state1 background-100-e">
+		<div class="ext-nav background-95-h page-transition">
+			<div class="view half-height">
+				<img alt class="bg static" src="images/placeholders/1920x1200-1.jpg" />
+				<div class="content no-top-padding no-bottom-padding  full-height">
+					<div class="container-fluid  full-height">
+						<div class="row full-height">
+							<a href="blog.html" class="col-md-6 colors-e background-95-e full-height">
+								<div>
+									<span class="side-label">DOWNLOAD DOCUMENTATION IN PDF</span>
+									<span class="side-title">Development Plan</span>
+								</div>
+							</a>
+							<a href="help.html" class="col-md-6 colors-f background-95-f full-height">
+								<div>
+									<span class="side-label">DOWNLOAD DOCUMENTATION IN PDF</span>
+									<span class="side-title">Cost Estimates</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid  half-height">
+				<div class="row full-height">
+					<a href="#how-we-work" class="col-md-4 colors-g background-solid full-height border-bottom border-lite">
+						<div>
+							<span class="side-label">OUR PLAN</span>
+							<span class="side-title">Concept And Design</span>
+						</div>
+					</a>
+					<a href="#who-we-are" class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
+						<div>
+							<span class="side-label">COLOR PALETTE</span>
+							<span class="side-title">Design Ideas</span>
+						</div>
+					</a>
+					<a href="#numbers" class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
+						<div>
+							<span class="side-label">THE DEVELOPMENT PROCESS</span>
+							<span class="side-title">Process</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="page-border bottom colors-e background-solid"><a href="#top" class="hover-effect">To <span class="highlight">Top</span></a></div>
+		<div class="page-border left colors-e background-solid">
+
+		</div>
+		<!-- BEGIN: Top menu -->
+		<div class="page-border right colors-e background-solid"></div>
+		<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
+					<a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
+					<a class="navbar-brand" href="">WEBSITE<span class="highlight">PROPOSAL</span></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home" class="hover-effect">Home</a></li>
+						<li><a href="#ourproposal" class="hover-effect">Plan</a></li>
+						<li><a href="#features" class="hover-effect">Features</a></li>
+						<li><a href="#colorpalette" class="hover-effect">Color Palette</a></li>
+						<li><a href="#process" class="hover-effect">Process</a></li>
+						<li><a href="#numbers" class="hover-effect">Budget Estimate</a></li>
+						<li><a href="#approval" class="hover-effect">Approval</a></li>
+						<li class="hidden-xs"><a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END: Top menu -->
+		<ul id="dot-scroll" class="colors-e background-solid"></ul>
+		<div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#ourproposal .content">
+			<div class="overlay-control background-85-d">
+				<a class="previos" href="#"></a>
+				<a class="next" href="#"></a>
+				<a class="cross" href="#"></a>
+			</div>
+			<div class="overlay-view"></div>
+			<ul class="loader">
+				<li class="background-100-d"></li>
+				<li class="background-100-d"></li>
+				<li class="background-100-d"></li>
+			</ul>
+		</div>
+		<div class="overlay-window map-overlay colors-f background-95-f">
+			<div class="overlay-control background-90-f">
+				<a class="cross" href="#"></a>
+			</div>
+			<div class="overlay-view">
+				<div class="map-canvas" data-latitude="40.0260" data-longitude="75.0451" data-zoom="14">
+					<div class="map-marker" data-latitude="40.0260" data-longitude="75.0451" data-text="The Historic Community Of Tacony"></div>
+					<div class="map-marker" data-latitude="40.0260" data-longitude="75.0451" data-text="The Historical Society of Tacony"></div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay-window credits-overlay colors-g background-95-g">
+			<div class="overlay-control background-85-d">
+				<a class="cross" href="#"></a>
+			</div>
+
+		</div>
+		<div class="gate colors-e background-solid">
+			<div class="gate-bar background-highlight-e"></div>
+			<ul class="loader">
+				<li class="background-100-g"></li>
+				<li class="background-90-c"></li>
+				<li class="background-100-f"></li>
+			</ul>
+		</div>
+		<!-- BEGIN: Page content -->
+		<section id="home">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-0.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" />
+				<div class="content home-alice full-size colors-a background-transparent">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+								<div class="text-right textillate heading  hidden-xs hidden-sm" data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:true}, out:{effect:'flipOutY', reverse:true}}">
+									<ul class="texts">
+										<li>The Historical Society Of Tacony</li>
+										<li>Interactive Features</li>
+										<li>A Design Credibility</li>
+										<li>A Possibility For Monetization</li>
+										<li>Security, Management And Growth</li>
+									</ul>
+								</div>
+								<h1 class="heading text-right">WEBSITE PROPOSAL</h1>
+							<!--	<p class="text-right title">
+								We are excited to be able to help represent <strong>The Tacony Historical Society</strong> properly with it's on-line properties, including the Historical Society website, social media, and secondary web properties. </p>-->
+								<p class="text-right"><a href="#about" class="button background-60-d heading-d">Download The Website Proposal</a><a href="#work" class="button background-60-f heading-f">Download The Cost Estimates</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" />
+				<div class="content pane">
+					<div class="container-fluid">
+						<div class="row hidden-xs hidden-sm">
+							<div class="col-md-4 colors-b">
+								<div class="row">
+									<div class="col-xs-12 banner-cell">
+										<h3 class="light-font-weight">Security</h3>
+										<p class="title">Lessen The Risk Of A Compromise</p>
+									</div>
+									<div class="col-xs-12 success heading-b banner-cell">
+										The Latest HTML Standard
+										<br /> SSL Certificate
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 colors-c">
+								<div class="row">
+									<div class="col-xs-12 banner-cell">
+										<h3 class="light-font-weight">Well Done Design</h3>
+										<p class="title">Display Credibility</p>
+									</div>
+									<div class="col-xs-12 warning heading-c banner-cell">
+										A Great Design
+										<br /> 
+										Relevant And Entertaining
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 colors-d">
+								<div class="row">
+									<div class="col-xs-12 banner-cell">
+										<h3 class="light-font-weight">Engagement</h3>
+										<p class="title">Changing Content</p>
+									</div>
+									<div class="col-xs-12 info heading-d banner-cell">
+										Interactive
+										<br /> Fun
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="ourproposal">
+			<div class="view" >
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-3.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-2.jpg" />
+				<div class="content colors-e">
+					<div class="container">
+						<h2>The Plan</h2>
+						<p class="header-details"><span class="highlight">We Hope To Create</span> A Website With Integrity</p>
+						<p class="lead">We are excited to have the opportunity to present our plan. We hope to be able to help <strong>The Historical Society of Tacony</strong> with it's web properties, including the Historical Society website, and secondary web properties as needed.</p>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="col-icon">
+									<i class="li_like"></i>
+								</div>
+								<div class="col-content">
+									<h4>Website<span class="highlight"> Up To Date</span></h4>
+									<p>The Historical Society of Tacony would benefit from a new website. There are several critical reasons, but the security concerns seem to be the most pressing. The present website code is very old, and much less secure then it should be. The site is highly susceptible to compromise because the code is not up to date.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="col-icon">
+									<i class="li_t-shirt"></i>
+								</div>
+								<div class="col-content">
+									<h4>Internet <span class="highlight">Marketing</span></h4>
+									<p>Although it is not the intention to acquire a monetary gain, the sale of product related to the organizations brand adds a special interactive feature, is valuable to the community, and is a viable method of promotion. A call to action donation function is also part of the features plan.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="col-icon">
+									<i class="li_user"></i>
+								</div>
+								<div class="col-content">
+									<h4>Web <span class="highlight">Management</span></h4>
+									<p>Part of our process includes continued development, growth, and management. Our responsibilities include assistance with interactive posts, graphics and photography assistance, and technical maintenance such as backup, security, typical code update maintenance, hosting, domain registration, and SSL management.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+			<div class="view" id="how-we-work">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-3.jpg" />
+				<div class="content colors-h">
+					<div class="container">
+						<h3><span class="highlight">A Website</span> Designed To Be A Valuable Asset</h3>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<p class="text-center">The present Historical Society of Tacony website is insecure, and much of the content is hosted on (Blogger) which is a platform that could be slated for discontinue in the near future. We are eager to create a valuable asset that brings interest, and value to the Community. Although we will create many features we will be focused primarily on these two areas.</p>
+							</div>
+						</div>
+						<div class="row icon-set">
+							<div class="col-md-6 text-center">
+							<!--	<p>
+									<i class="li_eye circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+								</p>-->
+								<p class="title"><span class="underline-text">Engagement Based Design</span></p>
+								<p>Through the use of well thought out design and intuitive user interface structures, we will attempt to engage visitors and keep them interested. The flow of the website will be designed for easy navigation.</p>
+							</div>
+							<div class="col-md-6 text-center">
+						<!--		<p>
+									<i class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+								</p>-->
+								<p class="title"><span class="underline-text">Interactive Features</span></p>
+								<p>Using exciting features like interactive maps, animated historic time-lines, and a rich historical information reference we hope to make The Historical Society of Tacony website fun to go to.</p>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		<section id="features">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-3.jpg" />
+				<div class="content colors-e">
+					<div class="container">
+						<h2>Website Features</h2>
+						<p class="header-details"><span class="highlight">Interactive</span> Features<span class="highlight"> And Design</span></p>
+						<p class="lead">This website concept includes some fun features like interactive navigable historical reference maps and time-line animations, and historic blogs with moderated comment boards. We will be adding convenient sign up forms, donation call to action, and we love the idea of merchandising; we hope to get a chance to incorporate merchandising. </p>
+						<div class="row">
+							<div class="col-md-3 top-line">
+								<h4>Responsive<br />Design</h4>
+								<p class="highlight">We design your website to look good on a phone, on the TV, and on the computer.</p>
+								<p>When we design, each clients needs are different, but designing and structuring for engagement is very often the primary concern.</p>
+								<ul class="simple">
+									<li>Responsive Design</li>
+									<li>Logical Structure</li>
+									<li>Rich Media</li>
+									<li>Thoughtful Frontend Development</li>
+									<li>Experienced Backend Development</li>
+									
+								</ul>
+							</div>
+							<div class="col-md-3 top-line">
+								<h4>Interactive<br />Features</h4>
+								<p class="highlight">Fun, informative, and changing content keeps visitors coming back.</p>
+								<p>We want The Historical Society of Tacony website to include changing and interactive content that adds value, and encourages visitors to return.</p>
+								<ul class="simple">
+									<li>Historical Blogs</li>
+									<li>Interactive Comments</li>
+									<li>Events Calender</li>
+									<li>Historical Information Time-Line</li>
+									<li>Interactive Historical Map</li>
+									
+								</ul>
+							</div>
+							<div class="col-md-3 top-line">
+								<h4>Information<br />Resources</h4>
+								<p class="highlight">We think it would be useful to be considered an information resource.</p>
+								<p>We hope to include the ability to include and add historical information that could be cataloged on the website for valuable and easy resource gathering.</p>
+								<ul class="simple">
+									<li>Historical Time-Line</li>
+									<li>Image Resources</li>
+									<li>Historical Articles</li>
+									<li>Resource Catalogs</li>
+									<li>Stories; Written Or On Video</li>
+									
+								</ul>
+							</div>
+							<div class="col-md-3 top-line">
+								<h4>Website<br />Merchandising</h4>
+								<p class="highlight">A way to foster interest, and to provide an asset to the community.</p>
+								<p>It would be interesting to provide Tacony related merchandise, perhaps profits could be donated. We want to also include a donation ability, perhaps connecting donations to merchandise.</p>
+								<ul class="simple">
+									<li>Join The Historical Society Form</li>
+									<li>Promotional Merchandise</li>
+									<li>Donation Call To Action</li>
+								<li>Special Event Merchandise</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-3.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" />
+				<div class="content half-size colors-h">
+					<div class="container">
+						<div class="show-list slogan">
+							<div class="show-item">A Useful Historical Website</div>
+							<div class="show-item">Archiving History</div>
+							<div class="show-item">Beautiful Design</div>
+							<div class="show-item">Creative Interactive Features</div>
+							<div class="show-item">A Value To The Community</div>
+						</div>
+						<div class="separator"></div>
+						<p class="text-center big-font">
+							<em>— It Is Our Desire To Create Something Of Value For The Community —</em>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="colorpalette">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-3.jpg" />
+				<div class="content no-bottom-padding colors-e">
+					<div class="container">
+						<h2>Website <span class="highlight">Color Palette</span></h2>
+						<p class="header-details"><span class="highlight">Some </span>Design Concepts</p>
+						<p class="lead">We hope to amplify <strong>The Historical Society of Tacony</strong> brand, add color, and a graphic standard. Subject to change; these design standards would be used on the website, and other web properties.</p>
+						
+							<div class="gallery background-e" data-default-group="all" data-overlay=".gallery-overlay">
+						<div class="container-fluid">
+	
+							<div class="row">
+								<div class="grid">
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
+										<a href="#" class="hover-overlay">
+											<img alt="Project 1" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">#cb875f</p>
+													<p class="text-center heading-e"><strong>COLOR PALETTE FONT ACCENT</strong></p>
+													<p class="text-center"><i class="fa fa-check-square-o heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+										<a href="#" class="hover-overlay">
+											<img alt="Project 2" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">#796f5c</p>
+													<p class="text-center heading-e"><strong>COLOR PALETTE ACCENT</strong></p>
+													<p class="text-center"><i class="fa fa-check-square heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#" class="hover-overlay">
+											<img alt="Project 3" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">#758f5b</p>
+													<p class="text-center heading-e"><strong>COLOR PALETTE STRONG GREEN</strong></p>
+													<p class="text-center"><i class="fa fa-check-square heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+										<a href="#" class="hover-overlay">
+											<img alt="Project 4" src="images/placeholders/500x400-3.jpg" />
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">#434343</p>
+													<p class="text-center heading-e"><strong>COLOR PALETTE STRONG GRAY</strong></p>
+													<p class="text-center"><i class="fa fa-check-square heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+						
+						
+					</div>
+				
+				</div>
+			</div>
+		</section>
+		<section id="process">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-1.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-2.jpg" />
+				<div class="content colors-e">
+					<div class="container">
+						<h2>Our <span class="highlight">Process</span></h2>
+						<p class="header-details"><span class="highlight">Grindingly Thorough</span> Research And Design</p>
+						<p class="lead">Learning and research starts the process. Meetings and gathering of client resources follow, then design concepts are presented along with copy-writing, graphics and design standards. Along the way we may be utilizing out photography staff, and artists. Several revisions are likely drawn up before we have just the right look. A lot of technical work is involved including work with Google and other search engines to make sure the site is optimized. Afterwards we will be performing regular maintenance and management duties that might include security, backup, SEO, and digital marketing efforts.</p>
+						<div class="process">
+							<div class="row process-row">
+								<div class="col-md-3 process-step">
+									<div class="process-box"><i class="li_search heading"></i></div>
+									<p class="title">Research</p>
+									<p class="text-center">Learning, research, discovery meetings, and gathering assets we will need. We are going to be learning so that we can develop a structure for the site, and represent your topic the right way.</p>
+								</div>
+								<div class="col-md-3 process-step">
+									<div class="process-box"><i class="li_pen heading"></i></div>
+									<p class="title">Concept</p>
+									<p class="text-center">Usually many design concepts are tried out before we find the design that works well. The logical structure of the site is put together based upon what is important to you.</p>
+								</div>
+								<div class="col-md-3 process-step">
+									<div class="process-box"><i class="li_settings heading"></i></div>
+									<p class="title">Development</p>
+									<p class="text-center">A logical structure is made that defines your site. This may be products, services, we may be designing for lead generation or for finding information easily.</p>
+								</div>
+								<div class="col-md-3 process-step">
+									<div class="process-box"><i class="li_paperplane heading"></i></div>
+									<p class="title">Deployment</p>
+									<p class="text-center">After revisions are approved and the site is the way you like it to be, we point your domain name and provide some neccessary administrative work with Google.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+							<!--	<p class="text-center">Aliquam fermentum massa ac est sollicitudin, at ultricies ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.</p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<section id="numbers">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-3.jpg" />
+				<div class="content half-size colors-h">
+					<div class="container-fluid">
+						<h3><span class="highlight">COST </span>ESTIMATES</h3>
+						<p class="title"><span class="highlight">Detailing The Expected</span> Costs Of This Project</p>
+						<div class="row counters">
+							<div class="col-md-3 counter background-25-b">
+								<h2>$1015</h2>
+								<div class="caption">Digital Graphics</div>
+							</div>
+							<div class="col-md-3 counter background-35-h">
+								<h2>$525</h2>
+								<div class="caption">Research & Copy-writing</div>
+							</div>
+							<div class="col-md-3 counter background-25-b">
+								<h2>$4520</h2>
+								<div class="caption">HTML Authoring</div>
+							</div>
+							<div class="col-md-3 counter background-35-h">
+								<h2>$34.99 <span class="highlight month">/mo.</span></h2>
+								<div class="caption">Monthly Management</div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<p class="text-center ">The costs above are an estimate based upon the features listed</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-0.jpg" />
+				<div class="content colors-e">
+					<div class="container">
+						<h2>Website <span class="highlight">Management</span></h2>
+						<p class="header-details"><span class="highlight">We Continue With</span> Management And Maintenance</p>
+						<p class="lead">We include website hosting, support, and we maintain your SSL certificate (Secure Socket Layer). Regular support duties include backup, and security, uptime monitoring, code updates, third party security updates, on-going graphics assistance, and website updates. Our help desk provides assistance with blogs, writing, and photo optimization.</p>
+					<!--	<div class="row">
+							<div class="col-md-6">
+								<ul class="widget-tabs nav nav-tabs background-lite-e">
+									<li class="active"><a href="#html5" data-toggle="tab">HTML5</a></li>
+									<li class=""><a href="#css3" data-toggle="tab">CSS3</a></li>
+									<li class=""><a href="#jquery-skill" data-toggle="tab">jQuery</a></li>
+									<li class=""><a href="#wordpress" data-toggle="tab">Wordpress</a></li>
+									<li class=""><a href="#seo" data-toggle="tab">SEO</a></li>
+									<li class=""><a href="#photoshop" data-toggle="tab">Photoshop</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade active in" id="html5">
+										<p>Fusce hendrerit enim et lacus rutrum, fermentum consectetur mauris hendrerit. Mauris scelerisque, est eget convallis blandit, lorem est scelerisque dolor, non dapibus orci enim ut risus. Praesent rhoncus ex sit amet nunc luctus, nec eleifend erat suscipit. In feugiat dui eget gravida dignissim. Quisque sed dictum felis. Integer viverra iaculis nulla, a euismod est. Nulla nec felis ipsum. Phasellus sed scelerisque nisl, eu condimentum metus. Aenean convallis risus nec eleifend pharetra. Vivamus rhoncus eleifend mi in imperdiet. Nullam a justo quis dolor viverra elementum. Nam eleifend leo quis elementum cursus.</p>
+									</div>
+									<div class="tab-pane fade" id="css3">
+										<p>Sed dapibus, leo ut egestas convallis, leo purus condimentum ipsum, sit amet lobortis odio nisi id enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi suscipit, mi in interdum volutpat, quam mi porta nisi, dapibus placerat sapien tortor eleifend arcu. Cras sit amet euismod mi, non imperdiet felis. Praesent eros nibh, ullamcorper ut suscipit sit amet, mattis sollicitudin lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis in enim sit amet nibh placerat consectetur id et enim. Nunc nec dui ac ligula posuere posuere vel id metus. Integer maximus eros nec lobortis tempor.</p>
+									</div>
+									<div class="tab-pane fade" id="jquery-skill">
+										<p>Nam eget ex mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam blandit, enim nec rutrum maximus, odio purus maximus odio, vel mattis nisi ante ut velit. Nam ut turpis vel dolor maximus dictum. Donec blandit turpis ut vulputate facilisis. Nam est nisi, posuere vitae posuere in, viverra non tellus. Pellentesque congue, sapien eget sollicitudin sollicitudin, est leo imperdiet ante, facilisis viverra mi augue in leo. Vestibulum felis urna, pharetra et eros ut, mattis consequat mi. Curabitur id tortor mattis, aliquet eros hendrerit, mattis metus. Ut dignissim vel augue in congue. Nulla a ante ut mi scelerisque suscipit. Aenean condimentum turpis mi, sit amet ullamcorper mi commodo non.</p>
+									</div>
+									<div class="tab-pane fade" id="php">
+										<p>Nulla egestas eu odio ac dictum. Phasellus eu odio lectus. Fusce luctus tempor mauris, vel accumsan leo. Nam libero velit, ultrices vel malesuada nec, euismod nec dolor. Maecenas congue erat sed maximus semper. Aliquam vestibulum magna sit amet pulvinar vestibulum. Cras semper condimentum ante, eget suscipit sapien. Sed ac urna nunc. Aenean viverra sem sit amet dolor pretium fringilla. Nam luctus tempus nibh vitae efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+									</div>
+									<div class="tab-pane fade" id="wordpress">
+										<p>Fusce non commodo sapien, quis ultrices enim. Proin in placerat urna. Nulla luctus leo nec massa vestibulum consequat quis a quam. Maecenas et leo ut orci fringilla ornare non sit amet lectus. Donec ornare eros tortor, sit amet condimentum lectus placerat ut. Duis lacus neque, lacinia non nunc id, aliquet tincidunt orci. In tellus felis, posuere non est rhoncus, tincidunt elementum sapien. Sed non sagittis ante. Duis ultricies mi dolor, feugiat blandit metus ullamcorper nec. Nullam semper gravida consequat. Suspendisse potenti. Mauris sit amet nisi at enim lacinia dignissim. Aenean suscipit pulvinar ex, eu venenatis magna dapibus sit amet.</p>
+									</div>
+									<div class="tab-pane fade" id="seo">
+										<p>Proin non augue posuere, iaculis tortor in, molestie lorem. Praesent ut gravida sem. Aenean sit amet lorem leo. Curabitur risus ante, pulvinar vel erat viverra, porttitor volutpat turpis. Praesent et sapien interdum, sollicitudin nisi non, bibendum leo. Duis posuere lectus velit, vel volutpat massa blandit non. Donec pellentesque vel magna ut dignissim. Pellentesque luctus fringilla eros, in tempus neque venenatis consectetur. Pellentesque purus mauris, laoreet eget augue in, pellentesque sagittis arcu. Etiam at blandit lectus, sit amet volutpat tellus.</p>
+									</div>
+									<div class="tab-pane fade" id="photoshop">
+										<p>Donec ac consectetur neque, vel eleifend nisi. In et nibh at neque convallis tincidunt. Aliquam sodales odio vel malesuada interdum. Duis auctor malesuada lorem. Nulla sed neque ut dui imperdiet congue ut sit amet enim. Phasellus vel commodo dui. Aliquam eu eleifend diam, vitae dapibus velit. Suspendisse ac est hendrerit, mollis lectus vel, accumsan urna. Quisque sit amet iaculis libero, sed maximus justo. Nunc laoreet non libero eu vehicula. Vestibulum ex lectus, pharetra non elementum et, gravida quis mauris. Donec sodales odio eget accumsan blandit.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="skillbars">
+									<div class="skillbar clearfix background-d" data-percent="40%">
+										<div class="skillbar-title background-b heading-b"><span>HTML5</span></div>
+										<div class="skillbar-bar background-b"></div>
+										<div class="skill-bar-percent heading-d">40%</div>
+									</div>
+									<div class="skillbar clearfix background-d" data-percent="45%">
+										<div class="skillbar-title background-c heading-c"><span>CSS3</span></div>
+										<div class="skillbar-bar background-c"></div>
+										<div class="skill-bar-percent heading-d">45%</div>
+									</div>
+									<div class="skillbar clearfix background-d" data-percent="50%">
+										<div class="skillbar-title background-b heading-b"><span>jQuery</span></div>
+										<div class="skillbar-bar background-b"></div>
+										<div class="skill-bar-percent heading-d">50%</div>
+									</div>
+									<div class="skillbar clearfix background-d" data-percent="40%">
+										<div class="skillbar-title background-c heading-c"><span>PHP</span></div>
+										<div class="skillbar-bar background-c"></div>
+										<div class="skill-bar-percent heading-d">40%</div>
+									</div>
+									<div class="skillbar clearfix background-d" data-percent="90%">
+										<div class="skillbar-title background-b heading-b"><span>Wordpress</span></div>
+										<div class="skillbar-bar background-b"></div>
+										<div class="skill-bar-percent heading-d">90%</div>
+									</div>
+									<div class="skillbar clearfix background-d" data-percent="75%">
+										<div class="skillbar-title background-c heading-c"><span>SEO</span></div>
+										<div class="skillbar-bar background-c"></div>
+										<div class="skill-bar-percent heading-d">75%</div>
+									</div>
+									<div class="skillbar clearfix background-d" data-percent="70%">
+										<div class="skillbar-title background-b heading-b"><span>Photoshop</span></div>
+										<div class="skillbar-bar background-b"></div>
+										<div class="skill-bar-percent heading-d">70%</div>
+									</div>
+								</div>
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="approval">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-0.jpg" />
+				<div class="content full-size colors-h">
+					<div class="container">
+						<h2>Ready To Get Started?</h2>
+						<p class="header-details">We Are Excited And Ready To Begin! Just Give Us A Call</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="text-center scroll-in-animation" data-animation="fadeInLeft">
+									<p class="big-font uppercase">
+										Tel: <strong class="highlight">(215) 338-7500</strong>
+									</p>
+									<p class="big-font uppercase">
+										430 Fairmount Ave.
+										<br/> Philadelphia, PA. 19123
+									</p>
+									<p class="big-font">
+										<b>
+									<a href="mailto:scott@geekgroup.com">scott@geekgroup.com</a><br/>
+									<!--<a href="http://www.ouraddress.com">www.ouraddress.com</a>-->
+								</b>
+									</p>
+				<!--					<p class="big-font">
+										<a target="_blank" href="https://twitter.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-twitter fa-stack-1x text-background"></i></span></a>
+										<a target="_blank" href="https://www.facebook.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span></a>
+										<a target="_blank" href="http://www.youtube.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-youtube fa-stack-1x text-background"></i></span></a>
+									</p>-->
+								</div>
+							</div>
+						<!--	<div class="col-md-6">
+								<div class="text-left scroll-in-animation" data-animation="fadeInRight">
+									<form class="ajax-form" data-message-class="colors-d background-95 heading border" action="contact.php" method="post" novalidate="novalidate">
+										<div class="row">
+											<div class="col-md-6 control-group">
+												<div class="alt-placeholder">Name</div>
+												<input type="text" name="your-name" value="" size="40" placeholder="Name" data-validation-required-message="Please fill the required field." required>
+												<div class="help-block"></div>
+											</div>
+											<div class="col-md-6 control-group">
+												<div class="alt-placeholder">Email</div>
+												<input type="email" name="your-email" value="" size="40" placeholder="Email" data-validation-required-message="Please fill the required field." required>
+												<div class="help-block"></div>
+											</div>
+											<div class="col-md-12 control-group">
+												<div class="alt-placeholder">Message</div>
+												<textarea name="your-message" placeholder="Message" data-validation-required-message="Please fill the required field." required></textarea>
+												<div class="help-block"></div>
+											</div>
+											<div class="col-md-12 form-actions">
+												<input class="button" type="submit" value="Send">
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>-->
+						</div>
+					<!--	<div class="text-center">
+							<a class="map-open button background-lite-b border-heading-b heading-b" data-map-overlay=".map-overlay" href="#">Locate Us on Map</a>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Page content -->
+		<!-- BEGIN: Footer -->
+		<footer class="colors-g page-transition non-preloading">
+		
+			<div class="bottom text-center background-10-b">
+				© 2019 This proposal is confidential and intended to be viewed only by The Historical Society of Tacony and those authorized
+			</div>
+		</footer>
+		<!-- END: Footer -->
+		<script>
+		if (typeof(atob) == "undefined")
+		{
+			document.write('<script src="lib/stringencoders-v3.10.3/javascript/base64.js"><\/script>');
+			var atob = function(x)
+			{
+				return base64.decode(x);
+			}
+		}
+		</script>
+		<script src="bower_components/less.js/dist/less.min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="lib/tween/tween.min.js"></script>
+		<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="lib/modernizr-edited.js"></script>
+		<script src="lib/SmoothScroll-1.2.1/SmoothScroll.js"></script>
+		<script src="bower_components/jquery-cookie/jquery.cookie.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
+		<script src="bower_components/minicolors/jquery.minicolors.min.js"></script>
+		<script src="bower_components/slick.js/slick/slick.min.js"></script>
+		<script src="bower_components/shufflejs/dist/jquery.shuffle.min.js"></script>
+		<script src="bower_components/textillate/assets/jquery.lettering.js"></script>
+		<script src="bower_components/textillate/assets/jquery.fittext.js"></script>
+		<script src="bower_components/textillate/jquery.textillate.js"></script>
+		<script src="lib/prism/prism.js"></script>
+		<script>
+		(function()
+		{
+			var disableMobileAnimations = true;
+			var isWin = navigator.appVersion.indexOf("Win") !== -1;
+			if (isWin) $('html').addClass('win');
+			var ua = navigator.userAgent.toLowerCase();
+			var isChrome = ua.indexOf('chrome') > -1;
+			if (isChrome) $('html').addClass('chrome');
+			var isAndroidBrowser4_3minus = ((ua.indexOf('mozilla/5.0') > -1 && ua.indexOf('android ') > -1 && ua.indexOf('applewebkit') > -1) && !(ua.indexOf('chrome') > -1));
+			if (isAndroidBrowser4_3minus) $('html').addClass('android-browser-4_3minus');
+			var isSafari = !isChrome && ua.indexOf('safari') !== -1;
+			if (isSafari) $('html').addClass('safari');
+			var isMobile = false; //Change false to Modernizr.touch if you want to disable animations on touchscreen devices;
+			if (isMobile)
+			{
+				$('html').addClass('mobile');
+				if (disableMobileAnimations) $('html').addClass('poor-browser');
+			}
+			else
+			{
+				$('html').addClass('non-mobile');
+			}
+			if (isWin && isSafari)
+			{
+				$('html').addClass('flat-animation');
+			}
+		})();
+		</script>
+		<script src="scripts/script-bundle.js"></script>
+		<script>
+		if (Function('/*@cc_on return document.documentMode===9@*/')())
+		{
+			$('html').addClass('ie9');
+		}
+		if (Function('/*@cc_on return document.documentMode===10@*/')())
+		{
+			$('html').addClass('ie10');
+		}
+		if (!!navigator.userAgent.match(/Trident.*rv\:11\./))
+		{
+			$('html').addClass('ie11');
+		}
+		</script>
+	</body>
+</html>
