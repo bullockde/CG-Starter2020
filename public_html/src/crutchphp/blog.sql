@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS `blogs` (
   `modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `created_by` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'admin',
   `excerpt` mediumtext COLLATE utf8_unicode_ci NOT NULL,
+  `coupon_id` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
