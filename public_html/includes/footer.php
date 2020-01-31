@@ -1,8 +1,40 @@
 <footer class="footer-distributed">
  
 	<div class="col-md-4 footer-left footer-left1">
-  		<img src="uploads/logo.png" height="75px">
-		<!--<h3>Fairmount<span>Design</span></h3>-->
+  		<!--<img src="uploads/logo.png" height="75px">
+		<h3>Fairmount<span>Design</span></h3>-->
+
+		<?php 
+
+		 $link = mysqli_connect($DB_MYSQL["host"], $DB_MYSQL["user"], $DB_MYSQL["pass"], $DB_MYSQL["database"]) or die("Database Error: Invalid Username or Password ".mysqli_error($link));
+
+	    mysqli_select_db ( $link , $DB_MYSQL["database"] ) or die("Database Error: Database not found ".mysqli_error($link));
+
+	    $tquery = "SELECT * FROM blog_images WHERE  name='logo'";
+
+	    $tres = mysqli_query( $link, $tquery);
+
+	    $tnr = mysqli_num_rows($tres);
+
+	    $row  = mysqli_fetch_array($tres);
+
+	    $logo_url = $row['location'];
+
+    
+
+        if( isset( $logo_url ) ){
+          ?>
+          <img src="<?php echo $site_base . $logo_url; ?>" height="75px"><br><br>
+          <?php
+        }else{
+          ?>
+          <img src="<?php echo $site_base; ?>images/logo.png" height="75px">
+          <?php
+        }
+        ?>
+
+
+
 
 		<p class="footer-links">
 			<a href="#">Home</a>

@@ -9,10 +9,10 @@
 
     $page_title = "Coupons";
 
-    $relative = "../";
+    $relative = "";
 	
     include  $relative . "src/crutchphp/config.php";
-    include $site_base .  "includes/head.php";
+    include "includes/head.php";
 ?>
 <style type="text/css">
     
@@ -26,19 +26,21 @@
     <!--*Header*-->
     <div class="worker">
         <?php
-            include $site_base .  "includes/header.php";
+            include "includes/header.php";
         ?>
     </div>
     <!--* End Header*-->
 
-    <div class="container">
+    <div class="container ">
 
-        <h1>
-
-            <?php echo $page_title; ?>
-            <!--<a href="<?php echo $site_base; ?>admin/archives.php" class="pull-right btn btn-default" >Go to Archives >></a>-->
+        <h1 class="text-center">
+            <br>
+            <?php echo $page_title; ?> 
+            <br><br>
         </h1>
 
+
+        <div class="row">
         <?php 
 
             $link = mysqli_connect($DB_MYSQL["host"], $DB_MYSQL["user"], $DB_MYSQL["pass"], $DB_MYSQL["database"]) or die("Database Error: Invalid Username or Password ".mysqli_error($link));
@@ -133,21 +135,21 @@
 
             mysqli_close($link);
         ?>
-
+        </div>
         <div class="clearfix"></div>
        
     </div>
-            
+            <div class="clearfix"></div><br><br>
 
 
     <!--*Footer*-->
     <?php
-        include $site_base .  "includes/footer.php";
+        include "includes/footer-seal.php";
     ?>
     <!--* End Footer*-->
 
     <?php
-        include $site_base .  "includes/scripts.php";
+        include "includes/scripts-seal.php";
     ?>
 
 </body>

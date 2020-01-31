@@ -35,13 +35,13 @@
 	$page_title = "Plans";
 	$page_slug = "plans";
 
-	if( $_GET['status'] == "approved" ){
+	if( $_GET['status'] == "Approved!" ){
 
 		$id = $_GET['id'];
 
 		$status = $_GET['status'];
 		
-		header('Location:' . $site_base . 'approved.php?type=plans&id='.$id);
+		header('Location:' . $site_base . 'work/approved.php?type=plans&id='.$id);
 
 		//$id = $_POST['id'];
 

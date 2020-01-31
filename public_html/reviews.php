@@ -56,12 +56,14 @@
 
     <!--* Testimonial*-->
     <section id="mainwrapper" class="mt_testimonial">
-        <div class="container">
+        <div class="container text-center">
 
+                <br><br>
 
             <h1>
 	            <?php echo $page_title; ?>
 	        </h1>
+                    <br><br>    
 
             <div class="row">
 
@@ -150,7 +152,7 @@
         <!-- pagination -->
                         <div class="col-md-12">
                             <div class="pagination-div text-center">
-                                <ul class="pagination">
+                                <ul class="pagination text-center">
 
 
 
