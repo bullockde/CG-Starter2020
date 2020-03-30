@@ -373,3 +373,139 @@
 [18-Dec-2019 17:02:39 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/fairmountdesign/public_html/src/crutchphp/config.php on line 187
 [18-Dec-2019 17:02:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/fairmountdesign/public_html/admin/emailer/index.php on line 276
 [18-Dec-2019 17:02:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/fairmountdesign/public_html/admin/emailer/index.php on line 292
+[23-Jan-2020 19:15:45 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 187
+[23-Jan-2020 19:15:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 272
+[23-Jan-2020 19:15:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 288
+[23-Jan-2020 20:36:19 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[23-Jan-2020 20:36:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 272
+[23-Jan-2020 20:36:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 288
+[29-Jan-2020 14:12:26 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[29-Jan-2020 14:12:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 272
+[29-Jan-2020 14:12:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 288
+[29-Jan-2020 14:13:16 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[29-Jan-2020 14:13:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 272
+[29-Jan-2020 14:13:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 288
+[29-Jan-2020 14:15:25 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[29-Jan-2020 14:15:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 272
+[29-Jan-2020 14:15:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 288
+[29-Jan-2020 14:15:51 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[29-Jan-2020 14:15:51 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/definisandsons/public_html/admin/emailer/email_template.php on line 3
+[29-Jan-2020 14:15:51 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/definisandsons/public_html/admin/emailer/email_template.php on line 3
+[29-Jan-2020 14:15:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/definisandsons/public_html/admin/emailer/email_template.php on line 74
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/definisandsons/public_html/admin/emailer/email_template.php on line 3
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/definisandsons/public_html/admin/emailer/email_template.php on line 3
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/definisandsons/public_html/admin/emailer/email_template.php on line 74
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/definisandsons/public_html/src/crutchphp/config.php on line 226
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 272
+[29-Jan-2020 14:17:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/definisandsons/public_html/admin/emailer/index.php on line 288
+[16-Mar-2020 23:43:27 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[16-Mar-2020 23:43:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[16-Mar-2020 23:43:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[17-Mar-2020 21:03:57 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[17-Mar-2020 21:03:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[17-Mar-2020 21:03:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[17-Mar-2020 21:23:14 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[17-Mar-2020 21:23:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[17-Mar-2020 21:23:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[27-Mar-2020 18:43:57 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[27-Mar-2020 18:43:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[27-Mar-2020 18:43:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 00:28:02 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 00:28:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[28-Mar-2020 00:28:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 06:33:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 06:33:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[28-Mar-2020 06:33:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 06:34:30 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 06:34:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[28-Mar-2020 06:34:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 07:28:03 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 07:28:03 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/emailer/email_template.php on line 3
+[28-Mar-2020 07:28:03 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/emailer/email_template.php on line 3
+[28-Mar-2020 07:28:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/cgwebsites/public_html/admin/emailer/email_template.php on line 74
+[28-Mar-2020 08:08:28 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:08:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[28-Mar-2020 08:08:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 08:17:56 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:17:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[28-Mar-2020 08:17:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 08:55:11 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:55:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 272
+[28-Mar-2020 08:55:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 288
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  include(../include/head.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/emailer/index.php on line 222
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  include(): Failed opening '../include/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/emailer/index.php on line 222
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  include(../include/header.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/emailer/index.php on line 226
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  include(): Failed opening '../include/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/emailer/index.php on line 226
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:57:42 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  include(../include/head.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/emailer/index.php on line 222
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  include(): Failed opening '../include/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/emailer/index.php on line 222
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  include(../include/header.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/emailer/index.php on line 226
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  include(): Failed opening '../include/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/emailer/index.php on line 226
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:57:44 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:58:34 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:59:18 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 08:59:55 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 09:00:02 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 09:01:49 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/head.php on line 1
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/header.php on line 1
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 280
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/cgwebsites/public_html/admin/emailer/index.php on line 296
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 11:42:06 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/includes/scripts.php on line 1
+[28-Mar-2020 11:42:09 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 11:42:09 UTC] PHP Warning:  include(../src/crutchphp/config.php): failed to open stream: No such file or directory in /home/cgwebsites/public_html/admin/emailer/email_template.php on line 3
+[28-Mar-2020 11:42:09 UTC] PHP Warning:  include(): Failed opening '../src/crutchphp/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/cgwebsites/public_html/admin/emailer/email_template.php on line 3
+[28-Mar-2020 11:42:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/cgwebsites/public_html/admin/emailer/email_template.php on line 74

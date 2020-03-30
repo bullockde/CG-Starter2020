@@ -7,10 +7,12 @@
 		      <span class="icon-bar"></span>
 		      <span class="icon-bar"></span>
 		    </button>
-		    <a class="navbar-brand" href="<?php echo $site_base; ?>"><?php echo $admin_name ?></a>
+		    
 		  </div>
 		  <div id="navbar" class="navbar-collapse collapse">
+		  	<a class="navbar-brand" href="<?php echo $site_base; ?>"><?php echo $admin_name ?></a>
 		    <ul class="nav navbar-nav">
+
 		      <li class="active1"><a href="<?php echo $site_base; ?>admin/">Home</a></li>
 		      <li><a href="<?php echo $site_base; ?>admin/new.php">New Post</a></li>
           <li><a href="<?php echo $site_base; ?>admin/coupons.php">Coupons</a></li>

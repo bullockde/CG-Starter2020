@@ -114,12 +114,20 @@
 <!--<![endif]-->
 <?php 
 	
-	include "head.php"; 
+	include "includes/head.php"; 
 ?>
 
 <body>
 	
-	<?php include 'header.php'; ?>
+	<?php include 'includes/header.php'; ?>
+
+	<?php include 'includes/sidebar.php'; ?>
+
+	<section id="main-content">
+
+
+
+          <section class="wrapper">
 
 	<div class="container-fluid">
 
@@ -157,10 +165,10 @@
 			{	
 				if($_GET["page"] > $pcount)
 				{
-					$query = "SELECT * FROM $page_slug ORDER BY id ASC";
+					$query = "SELECT * FROM $page_slug ORDER BY id DESC";
 				}else{
 					$plim = (intval($_GET["page"])-1) * 8;
-					$query = "SELECT * FROM $page_slug ORDER BY id ASC";
+					$query = "SELECT * FROM $page_slug ORDER BY id DESC";
 				}
 			}else{
 				if( isset($_GET['edit']) ){
@@ -176,7 +184,7 @@
 
 					}else{
 					// page check
-					$query = "SELECT * FROM $page_slug ORDER BY id ASC ";
+					$query = "SELECT * FROM $page_slug ORDER BY id DESC ";
 				}
 
 			}
@@ -188,7 +196,7 @@
 
 			$blog_row_count = 0;
 			?>
-			<div class="col-lg-12 hidden-xs hidden-sm hidden-md">
+			<div class="col-lg-12 hidden-xs hidden-sm hidden-md row">
 				<div class="col-lg-1">
 		        	<h3>Date:</h3>
 		        </div>
@@ -305,7 +313,8 @@
 
 	    		?>
 	    		<form method="post" enctype='multipart/form-data'>
-					    <div class='col-lg-12 well'>
+	    				<div class='card'>
+					    <div class='col-lg-12 card-body row'>
 					    	<div class="col-lg-1 col-xs-6">
 					        	<!-- -->
 					        	<input type="text" name="start_date" value="<?php echo date("m/d/y"); ?>" style="width: 100%;" />
@@ -338,7 +347,7 @@
 					     
 					        <div class="col-lg-2">
 					       
-					        	<input type='text' name='title' placeholder="Daniels Plumbing" value="Daniels Plumbing" style="width: 100%;" />
+					        	<input type='text' name='title' placeholder="Definis" value="Definis" style="width: 100%;" />
 					        	<br>
 					        	<br class="hidden-lg">
 					        </div>
@@ -374,6 +383,7 @@
 							<div class="clearfix"></div>	    
 						    
 					    </div>
+					    </div>
 				</form>
 	    		<?php
 	    	}
@@ -398,7 +408,8 @@
 
 				
 					 ?> 
-				    <div class='col-lg-12 well'>
+					 <div class='card'>
+				    <div class='col-lg-12 card-body row'>
 				    	<div class="col-lg-1 col-xs-6" contenteditable="true">
 				        	<!-- -->
 				        		<b><?php echo $row["id"]; ?></b> - <?php echo date('m/d/y', strtotime($row['start_date'])); ?></b>
@@ -563,7 +574,7 @@
 			
 
 							    
-				    </div>
+				    </div> </div>
 
 
 
@@ -705,4 +716,9 @@
 			</ul>
 		</div>
 	</div>
+
+	</section>
+		</section>
+
+	<?php include "includes/scripts.php"; ?>
 </body>

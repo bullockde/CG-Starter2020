@@ -1893,3 +1893,6 @@ Stack trace:
 [19-Aug-2019 14:38:20 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
 [19-Aug-2019 14:38:52 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
 [19-Aug-2019 14:38:57 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[16-Mar-2020 23:35:55 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:30:15 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
+[28-Mar-2020 08:32:01 UTC] PHP Warning:  mysqli::close() expects exactly 0 parameters, 1 given in /home/cgwebsites/public_html/src/crutchphp/config.php on line 185
